@@ -1,11 +1,23 @@
-.header{
-    text-align: center;
-    font-size: 100%;
-    justify-content: center; 
-}
+body {
+
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box
+    
+    }
+    .header{
+        display: flex;
+    }
 .nav{
-    background-color: grey;
+    background-color: #808080;
+    height: 60px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 130%;
+    align-items: center;
 }
 a{
     text-decoration: none;
@@ -21,28 +33,22 @@ a{
     font-size: 200%;
     text-decoration: underline;
 }
-.container{
-    width: 95%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 5%;
-}
 .book{
-    margin: 0 7% 0 7%;
+    margin: 0 3% 3% 3%;
     align-items: center;
-    border: 3px solid black;
     text-align: center;
-    
 }
 .img{
     width: 302px;
     height: 420px;
 }
 .footer{
+    display: flex;
     text-align: center;
     font-size: 100%;
     justify-content: center;
     text-decoration: none;
+    background-color:  #808080;
+    width: 100%;
+    
 }
